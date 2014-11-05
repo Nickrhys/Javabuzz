@@ -23,6 +23,10 @@ describe('Javabuzz', function() {
       expect(javabuzz.isDivisableByThree(1)).toEqual(false);
     });
 
+    it('not divisable by five', function(){
+      expect(javabuzz.isDivisableByFive(1)).toEqual(false);
+    });
+
   });
 
 }); 
