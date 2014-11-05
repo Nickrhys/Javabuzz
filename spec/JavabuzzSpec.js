@@ -8,6 +8,10 @@ describe('Javabuzz', function() {
       javabuzz = new Javabuzz();
       expect(javabuzz.isDivisableByThree(3)).toEqual(true);
     });
+
+    it('divisable by five', function(){
+      expect(javabuzz.isDivisableByFive(5)).toEqual(true);
+    });
   
   });
 
