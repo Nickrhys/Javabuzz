@@ -9,7 +9,7 @@ Javabuzz.prototype.isDivisableByFive = function(number) {
 };
 
 Javabuzz.prototype.isDivisableByFifteen = function(number) {
-  return this._isDivisableBy(number, 5);
+  return this._isDivisableBy(number, 15);
 };
 
 Javabuzz.prototype._isDivisableBy = function(number, divisor) {
@@ -17,6 +17,7 @@ Javabuzz.prototype._isDivisableBy = function(number, divisor) {
 };
 
 Javabuzz.prototype.prints = function(number) {
+  if (this.isDivisableByFifteen(number)) return ('fizzbuzz');
   if (this.isDivisableByThree(number)) return ('fizz');
   if (this.isDivisableByFive(number)) return ('buzz');
 };

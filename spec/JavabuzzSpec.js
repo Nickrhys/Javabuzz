@@ -47,7 +47,11 @@ describe('Javabuzz', function() {
 
     it('prints buzz when divisable by 5', function(){
       expect(javabuzz.prints(10)).toEqual('buzz');
-    })
+    });
+
+    it('prints fizzbuzz when divisable by 15', function(){
+      expect(javabuzz.prints(30)).toEqual('fizzbuzz');
+    });
 
   }); 
 
