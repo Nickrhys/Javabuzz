@@ -45,6 +45,10 @@ describe('Javabuzz', function() {
       expect(javabuzz.prints(6)).toEqual('fizz'); 
     });
 
+    it('prints buzz when divisable by 5', function(){
+      expect(javabuzz.prints(10)).toEqual('buzz');
+    })
+
   }); 
 
 }); 
