@@ -20,5 +20,6 @@ Javabuzz.prototype.prints = function(number) {
   if (this.isDivisableByFifteen(number)) return ('fizzbuzz');
   if (this.isDivisableByThree(number)) return ('fizz');
   if (this.isDivisableByFive(number)) return ('buzz');
+  return number;
 };
 

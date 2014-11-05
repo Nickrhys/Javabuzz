@@ -53,6 +53,10 @@ describe('Javabuzz', function() {
       expect(javabuzz.prints(30)).toEqual('fizzbuzz');
     });
 
+    it('prints a number in all other cases', function(){
+      expect(javabuzz.prints(1)).toEqual(1);
+    });
+
   }); 
 
 }); 
