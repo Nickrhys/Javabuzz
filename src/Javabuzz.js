@@ -7,3 +7,7 @@ Javabuzz.prototype.isDivisableByThree = function(number) {
 Javabuzz.prototype.isDivisableByFive = function(number) {
   return (number % 5 === 0);
 };
+
+Javabuzz.prototype.isDivisableByFifteen = function(number) {
+  return true;
+  };

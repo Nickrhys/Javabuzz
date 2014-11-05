@@ -12,6 +12,10 @@ describe('Javabuzz', function() {
     it('divisable by five', function(){
       expect(javabuzz.isDivisableByFive(5)).toEqual(true);
     });
+
+    it('divisable by three and five', function(){
+      expect(javabuzz.isDivisableByFifteen(15)).toEqual(true);
+    });
   
   });
 
