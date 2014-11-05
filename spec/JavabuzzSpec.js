@@ -23,7 +23,7 @@ describe('Javabuzz', function() {
   });
 
 
-   describe('knows when a number is not', function(){ 
+  describe('knows when a number is not', function(){ 
 
     it('not divisable by three', function(){
       expect(javabuzz.isDivisableByThree(1)).toEqual(false);
@@ -35,6 +35,14 @@ describe('Javabuzz', function() {
 
     it('not divisable by fifteen', function(){
       expect(javabuzz.isDivisableByFifteen(1)).toEqual(false);
+    });
+
+  });
+  
+  describe('prints fizz, buzz, fizzbuzz or number', function(){
+    
+    it('prints fizz when divisable by 3', function(){
+      expect(javabuzz.prints(6)).toEqual('fizz'); 
     });
 
   }); 

@@ -16,3 +16,8 @@ Javabuzz.prototype._isDivisableBy = function(number, divisor) {
   return (number % divisor === 0)
 };
 
+Javabuzz.prototype.prints = function(number) {
+  if (this.isDivisableByThree(number)) return ('fizz');
+  if (this.isDivisableByFive(number)) return ('buzz');
+};
+
