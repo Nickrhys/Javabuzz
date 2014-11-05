@@ -2,10 +2,13 @@ describe('Javabuzz', function() {
   
   var javabuzz;
 
+  beforeEach(function(){
+    javabuzz = new Javabuzz();
+  });
+
   describe('knows when a number is', function() {
 
     it('divisble by three', function(){
-      javabuzz = new Javabuzz();
       expect(javabuzz.isDivisableByThree(3)).toEqual(true);
     });
 
@@ -23,7 +26,6 @@ describe('Javabuzz', function() {
    describe('knows when a number is not', function(){ 
 
     it('not divisable by three', function(){
-      javabuzz = new Javabuzz();
       expect(javabuzz.isDivisableByThree(1)).toEqual(false);
     });
 
@@ -35,6 +37,6 @@ describe('Javabuzz', function() {
       expect(javabuzz.isDivisableByFifteen(1)).toEqual(false);
     });
 
-  });
+  }); 
 
 }); 
