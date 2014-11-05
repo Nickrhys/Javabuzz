@@ -31,6 +31,10 @@ describe('Javabuzz', function() {
       expect(javabuzz.isDivisableByFive(1)).toEqual(false);
     });
 
+    it('not divisable by fifteen', function(){
+      expect(javabuzz.isDivisableByFifteen(1)).toEqual(false);
+    });
+
   });
 
 }); 
