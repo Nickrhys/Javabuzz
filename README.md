@@ -1,18 +1,13 @@
 JAVABUZZ
 ========
 
-Fizzbuzz, in Javascript, tested in Jasmine. The first Javascript program built from scratch. Fully tested in Jasmine. 
-
-How to use
-----------
-
-Open SpecRunner.html in command line and, in the console (Google Chrome shortcut for console is cmd + option + i), intitialise an instance of Javabuzz(); at the prompt, as you did in your spec file:
+Fizzbuzz in Javascript, tested in Jasmine. My first programme, from scratch, in Javascript. If you want to play, go to your browser, and in the same window where your SpecRunner.html is loaded up, open your console (Google Chrome shortcut is cmd + option + i) and at the prompt intitialise an instance of Javabuzz:
 
 ```
 var javabuzz = new Javabuzz();
 ```
 
-Now you can give it a go. 
+Now you can test it out:
 
 ```
 >  javabuzz.says(3)
